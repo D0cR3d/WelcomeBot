@@ -15,7 +15,8 @@ botconfig = configparser.ConfigParser()
 botconfig.read("botconfig.ini")
 
 __botname__ = "Eulogy612-WelcomeBot"
-__description__ = "Sets user flair in r/TheApexCollective. Made by /u/QuantumBrute"
+__description__ = "Sets user flair in r/TheApexCollective. Made by /u/QuantumBrute, " \
+                  "maintained by u/D0cR3d"
 __author__ = "/u/QuantumBrute"
 __version__ = "1.0.1"
 __dsn__ = botconfig.get("BotConfig", "DSN")
